@@ -10,7 +10,7 @@ The tipcalculator was biult as part of the [Ios CodePath iOS Mobile Bootcamp](ht
 &nbsp;&nbsp;
 <img src="http://imgur.com/EezsnjN.png" height="545" />
 
-The setting is applied immediately to the main screen
+The setting is applied immediately to the main screen<br/>
 <img src="http://imgur.com/PTm8o8N.png" height="545" />
 
 
