@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  tipcalculator
+
+  Created by Upkar Lidder on 2013-12-10.
+  Copyright (c) 2013 upkar. All rights reserved.
+*/
+
+"settingsTitle" = "Settings";
+"settingsFirstLabel" = "This is the settings page for the tip calculator. You can change the default tip. The change will be applied to the current tip on the main page immediately.";
+"settingsSegmentControlLabel" = "Default Tip";
+"settingsDefualtControlLabel" = "Default Split";

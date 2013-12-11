@@ -10,4 +10,14 @@
 
 @interface TipViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *billTextField;
+@property (weak, nonatomic) IBOutlet UILabel *tipLabel;
+@property (weak, nonatomic) IBOutlet UILabel *totalLabel;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *tipControl;
+@property (assign) int defaultTip;
+
+- (IBAction)onTap:(id)sender;
+- (void)updateValues;
+- (void)onSettingsButton;
+
 @end

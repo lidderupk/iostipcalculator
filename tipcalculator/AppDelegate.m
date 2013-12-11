@@ -16,8 +16,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    TipViewController *vc = [[TipViewController alloc] init];
-    UINavigationController *nvc = [[UINavigationController alloc]initWithRootViewController:vc];
+    self.tipViewController = [[TipViewController alloc] init];
+    UINavigationController *nvc = [[UINavigationController alloc]initWithRootViewController:self.tipViewController];
     self.window.rootViewController = nvc;
     
     self.window.backgroundColor = [UIColor whiteColor];

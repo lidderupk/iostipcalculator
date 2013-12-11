@@ -7,14 +7,11 @@
 //
 
 #import "TipViewController.h"
+#import "SettingsViewController.h"
+#import "Constants.h"
 
 @interface TipViewController ()
-@property (weak, nonatomic) IBOutlet UITextField *billTextField;
-@property (weak, nonatomic) IBOutlet UILabel *tipLabel;
-@property (weak, nonatomic) IBOutlet UILabel *totalLabel;
-@property (weak, nonatomic) IBOutlet UISegmentedControl *tipControl;
-- (IBAction)onTap:(id)sender;
-- (void)updateValues;
+
 @end
 
 @implementation TipViewController
@@ -25,6 +22,16 @@
     if (self) {
         // Custom initialization
         self.title = @"Tip Calculator";
+        [self.view setTag:[@(99) integerValue]];
+        [self.tipLabel setTag:[@(100) integerValue]];
+        [self.totalLabel setTag:[@(101) integerValue]];
+        [self.tipControl setTag:[@(102) integerValue]];
+        [self.billTextField setTag:[@(103) integerValue]];
+        
+        //get the default tip
+        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+        self.defaultTip = [defaults integerForKey:DEFAULT_TIP_KEY];
+        NSLog(@"tipviewcontroller initWithNibName default tip: %d", self.defaultTip);
     }
     return self;
 }
@@ -33,6 +40,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Settings" style:UIBarButtonItemStylePlain target:self action:@selector(onSettingsButton)];
+    self.tipControl.selectedSegmentIndex = self.defaultTip;
+    NSLog(@"tipviewcontroller viewDidLoad default tip: %d", self.defaultTip);
+    
     [self updateValues];
 }
 
@@ -56,5 +67,32 @@
     //write back to the labels
     self.tipLabel.text = [NSString stringWithFormat:@"$%0.2f", tipAmount];
     self.totalLabel.text = [NSString stringWithFormat:@"$%0.2f", totalAmount];
+}
+
+- (void) onSettingsButton{
+    SettingsViewController *svc = [[SettingsViewController alloc] init];
+    [self.navigationController pushViewController:svc animated:YES];
+}
+
+- (void) viewDidAppear:(BOOL)animated{
+    NSLog(@"tipviewcontroller viewDidAppear");
+}
+
+- (void) viewWillAppear:(BOOL)animated{
+    NSLog(@"tipviewcontroller viewWillAppear");
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    self.defaultTip = [defaults integerForKey:DEFAULT_TIP_KEY];
+    self.tipControl.selectedSegmentIndex = self.defaultTip;
+    [self updateValues];
+    NSLog(@"tipviewcontroller viewWillAppear default tip: %d", self.defaultTip);
+}
+
+- (void) viewDidDisappear:(BOOL)animated{
+    NSLog(@"tipviewcontroller viewDidDisappear");
+}
+
+- (void) viewWillDisappear:(BOOL)animated{
+    NSLog(@"tipviewcontroller viewWillDisappear");
 }
 @end

@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TipViewController.h"
+#import "SettingsViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) TipViewController *tipViewController;
+@property (strong, nonatomic) SettingsViewController *settingsViewController;
 
 @end
