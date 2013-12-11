@@ -9,10 +9,10 @@ The tipcalculator was biult as part of the [Ios CodePath iOS Mobile Bootcamp](ht
 <img src="http://i.imgur.com/7wJxVvN.png" height="545" />
 &nbsp;&nbsp;
 <img src="http://imgur.com/EezsnjN.png" height="545" />
-<br/><br/>
+
 The setting is applied immediately to the main screen
 <img src="http://imgur.com/PTm8o8N.png" height="545" />
-<br/><br/>
+
 
 ## License
 
