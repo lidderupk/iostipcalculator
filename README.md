@@ -1,6 +1,6 @@
 # TipCalculator
 
-TipCalculator is a very clean and simple tip calculating app. It takes the math out of the way ! It is built in ObjectiveC using MVC paradigm and uses XCTest framework for unit tests.
+TipCalculator is a very clean and simple tip calculating app. It takes the math out of the way ! It is built in ObjectiveC using MVC paradigm and uses XCTest framework for [unit tests](https://github.com/8indaas/iostipcalculator/blob/master/tipcalculatorTests/tipcalculatorTests.m).
 
 ![Logo](http://imgur.com/EURcqum.png)
 
