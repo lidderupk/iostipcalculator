@@ -14,7 +14,12 @@ The tipcalculator was built as part of the [Ios CodePath iOS Mobile Bootcamp](ht
 ## Tools used
 * XCode 5
 * XCTest Framework to test various controllers and views
-* App icons from iconfinder (https://www.iconfinder.com/icons/48742/calculator_icon#size=128)
+* App icons from [iconfinder](https://www.iconfinder.com/icons/48742/calculator_icon#size=128)
+
+## Possible Improvement
+* Add people split to the app that divides the total for each person
+* Add slider for each person so that if one person wants to pay less, the remianing is divided into the rest of the people
+* Better layout and graphics
 
 ## License
 
