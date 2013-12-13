@@ -41,12 +41,6 @@
     XCTAssertNotNil(self.appDelegate, @"Cannot find appDelegate");
 }
 
-- (void) testDefaultValuesOnStart{
-    XCTAssertTrue([self.tipViewController.billTextField.text isEqualToString:@""], @"The bill text field should be on empty on start");
-    XCTAssertTrue([self.tipViewController.tipLabel.text isEqualToString:@"$0.00"], @"The tip label should be on empty on start");
-    XCTAssertTrue([self.tipViewController.totalLabel.text isEqualToString:@"$0.00"], @"The total label should be on empty on start");
-//    XCTAssertTrue(self.tipViewController.tipControl.selectedSegmentIndex == 0, @"10%% should be selected on start");
-}
 
 - (void) testOnTapMethod{
     //set up the fields

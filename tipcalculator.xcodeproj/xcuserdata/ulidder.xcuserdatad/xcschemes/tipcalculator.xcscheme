@@ -38,6 +38,26 @@
                ReferencedContainer = "container:tipcalculator.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A8598F93185AEE9700480A2C"
+               BuildableName = "tipcalculator Tests.xctest"
+               BlueprintName = "tipcalculator Tests"
+               ReferencedContainer = "container:tipcalculator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A8E78770185AF81D00F5E1E2"
+               BuildableName = "tipcalculatorTestDefaults.xctest"
+               BlueprintName = "tipcalculatorTestDefaults"
+               ReferencedContainer = "container:tipcalculator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
