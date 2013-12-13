@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SettingsViewController.h"
 
 @interface SettingsViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *descLabel;
 @property (weak, nonatomic) IBOutlet UILabel *defaultTipLabel;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *defaultTipSegment;
+
 
 @property(assign) int defaultTip;
 

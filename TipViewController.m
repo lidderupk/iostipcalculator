@@ -14,7 +14,9 @@
 
 @end
 
-@implementation TipViewController
+@implementation TipViewController{
+    NSInteger currentTip;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
