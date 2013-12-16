@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *defaultTipLabel;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *defaultTipSegment;
 
+extern NSString *SettingsViewControllerFinished;
 
 @property(assign) int defaultTip;
 

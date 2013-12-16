@@ -19,5 +19,6 @@
 - (IBAction)onTap:(id)sender;
 - (void)updateValues;
 - (void)onSettingsButton;
+- (void)downloadFinished:(NSNotification *)notification;
 
 @end

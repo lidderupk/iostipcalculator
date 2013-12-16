@@ -16,6 +16,9 @@
 
 @implementation SettingsViewController
 
+NSString *SettingsViewControllerFinished = @"SettingsViewControllerFinished";
+id defaultChanged = @"FALSE";
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -48,6 +51,7 @@
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:self.defaultTipSegment.selectedSegmentIndex forKey:DEFAULT_TIP_KEY];
     [defaults synchronize];
+    defaultChanged = [NSString stringWithFormat:@"TRUE"];
 }
 
 - (void) viewDidAppear:(BOOL)animated{
@@ -55,9 +59,8 @@
 }
 
 - (void) viewWillAppear:(BOOL)animated{
+    defaultChanged = @"FALSE";
     NSLog(@"settingsviewcontoller viewWillAppear");
-    
-    
 }
 
 - (void) viewDidDisappear:(BOOL)animated{
@@ -66,6 +69,19 @@
 
 - (void) viewWillDisappear:(BOOL)animated{
     NSLog(@"settingsviewcontoller viewWillDisappear");
+    
+    NSDictionary *userInfo = [NSDictionary dictionaryWithObject:defaultChanged
+                                                         forKey:SettingsViewControllerFinished];
+    
+    
+//    [[NSNotificationCenter defaultCenter]
+//     postNotificationName:SettingsViewControllerFinished
+//     object:defaultChanged];
+    
+    [[NSNotificationCenter defaultCenter]
+     postNotificationName:SettingsViewControllerFinished
+     object:nil
+     userInfo:userInfo];
 }
 
 @end

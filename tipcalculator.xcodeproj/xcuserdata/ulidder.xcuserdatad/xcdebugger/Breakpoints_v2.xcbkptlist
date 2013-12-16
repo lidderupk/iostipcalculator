@@ -10,28 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TipViewController.m"
-            timestampString = "408617606.29663"
+            timestampString = "408764975.021526"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "-onTap:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "tipcalculatorTests/tipcalculatorTests.m"
-            timestampString = "408490359.059247"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "-tearDown"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "-downloadFinished:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -42,60 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TipViewController.m"
-            timestampString = "408617606.29663"
+            timestampString = "408765123.968041"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
-            landmarkName = "-updateValues"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "tipcalculatorTests/tipcalculatorTests.m"
-            timestampString = "408614728.855273"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "-testSettingsViewShowsWhenSettingsButtonIsClicked"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "tipcalculatorTests/tipcalculatorTests.m"
-            timestampString = "408614728.855273"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "-testSettingsViewShowsWhenSettingsButtonIsClicked"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SettingsViewController.m"
-            timestampString = "408617606.29663"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "-initWithNibName:bundle:"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "-downloadFinished:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -106,105 +42,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TipViewController.m"
-            timestampString = "408617606.29663"
+            timestampString = "408765125.592156"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "-initWithNibName:bundle:"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "-downloadFinished:"
             landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "tipcalculatorTests/tipcalculatorTests.m"
-            timestampString = "408614728.855273"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
-            landmarkName = "-testTitleOfSettingsView"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[tipcalculatorTests testTitleOfSettingsView]"
-                  moduleName = "tipcalculatorTests"
-                  urlString = "file://localhost/Users/ulidder/Documents/tipcalculator/tipcalculatorTests/tipcalculatorTests.m"
-                  timestampString = "408489793.319601"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "120">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[tipcalculatorTests testTitleOfSettingsView]"
-                  moduleName = "tipcalculatorTests"
-                  urlString = "file://localhost/Users/ulidder/Documents/tipcalculator/tipcalculatorTests/tipcalculatorTests.m"
-                  timestampString = "408489793.320172"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "1095">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "tipcalculator Tests/tipcalculatorTestOutletsAndActions.m"
-            timestampString = "408615901.815083"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
-            landmarkName = "-testTipControllSegementAction"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[tipcalculatorTestOutletsAndActions testTipControllSegementAction]"
-                  moduleName = "tipcalculator Tests"
-                  urlString = "file://localhost/Users/ulidder/Documents/tipcalculator/tipcalculator%20Tests/tipcalculatorTestOutletsAndActions.m"
-                  timestampString = "408615937.77632"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "76"
-                  endingLineNumber = "76"
-                  offsetFromSymbolStart = "181">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[tipcalculatorTestOutletsAndActions testTipControllSegementAction]"
-                  moduleName = "tipcalculator Tests"
-                  urlString = "file://localhost/Users/ulidder/Documents/tipcalculator/tipcalculator%20Tests/tipcalculatorTestOutletsAndActions.m"
-                  timestampString = "408615937.776815"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "76"
-                  endingLineNumber = "76"
-                  offsetFromSymbolStart = "565">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -214,59 +58,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TipViewController.m"
-            timestampString = "408617606.29663"
+            timestampString = "408765126.578427"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
-            landmarkName = "-updateValues"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "-downloadFinished:"
             landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SettingsViewController.h"
-            timestampString = "408617540.059816"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "delegate"
-            landmarkType = "19">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[SettingsViewController defaultTip]"
-                  moduleName = "tipcalculator"
-                  urlString = "file://localhost/Users/ulidder/Documents/tipcalculator/SettingsViewController.h"
-                  timestampString = "408617540.06491"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "24">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[SettingsViewController setDefaultTip:]"
-                  moduleName = "tipcalculator"
-                  urlString = "file://localhost/Users/ulidder/Documents/tipcalculator/SettingsViewController.h"
-                  timestampString = "408617540.065409"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "31">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
